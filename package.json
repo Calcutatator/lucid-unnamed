@@ -1,0 +1,21 @@
+{
+  "name": "lucid-unnamed",
+  "module": "src/index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.78.0",
+    "@lucid-agents/core": "^2.5.0",
+    "@lucid-agents/hono": "^0.9.6",
+    "@lucid-agents/http": "^1.10.2",
+    "@lucid-agents/payments": "^2.5.0",
+    "@x402/core": "^2.6.0",
+    "zod": "^4.3.6"
+  }
+}
