@@ -1,5 +1,5 @@
 {
-  "name": "lucid-echo",
+  "name": "lucid-unnamed",
   "version": "1.0.0",
   "module": "src/index.ts",
   "type": "module",
@@ -10,10 +10,12 @@
     "test": "bun test"
   },
   "dependencies": {
-    "@lucid-agents/core": "latest",
-    "@lucid-agents/hono": "latest",
-    "@lucid-agents/http": "latest",
-    "@lucid-agents/payments": "latest",
+    "@anthropic-ai/sdk": "^0.80.0",
+    "@lucid-agents/core": "^2.5.0",
+    "@lucid-agents/hono": "^0.9.6",
+    "@lucid-agents/http": "^1.10.2",
+    "@lucid-agents/payments": "^2.5.0",
+    "@x402/core": "^2.7.0",
     "hono": "^4.0.0",
     "zod": "^3.23.0"
   },
